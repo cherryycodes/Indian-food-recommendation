@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Indian Food Recommendations</title>
+    <link rel="stylesheet" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Indian Food Recommendations</h1>
+        <form action="/recommend" method="post">
+            <div class="form-group">
+                <label for="flavor_profile">Flavor Profile:</label>
+                <input type="text" id="flavor_profile" name="flavor_profile" required>
+            </div>
+
+            <div class="form-group">
+                <label for="time_limit">Time Limit (in minutes):</label>
+                <input type="number" id="time_limit" name="time_limit" required>
+            </div>
+
+            <button type="submit">Get Recommendations</button>
+        </form>
+
+        <form action="/similar" method="post">
+            <div class="form-group">
+                <label for="dish_name">Dish Name:</label>
+                <input type="text" id="dish_name" name="dish_name">
+            </div>
+
+            <button type="submit">Find Similar Dishes</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<h2>Recommend Dishes similar to {{ dish_name }}</h2>
+<ul>
+    {% for dish in recommendations %}
+    <li>{{ dish }}</li>
+    {% endfor %}
+</ul>
+<form action="/ingredients" method="post">
+    <label for="selection">Select a Dish:</label>
+    <input type="number" name="selection" id="selection"><br><br>
+    <input type="submit" value="Get Ingredients">
+</form>
