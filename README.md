@@ -1,7 +1,5 @@
 # Indian Cuisine Recommender
 
-[License](https://opensource.org/license/mit/)
-
 ## Overview
 The Indian Cuisine Recommender is a Python-based web application that recommends Indian dishes based on flavour profiles, cook time, and similarity to other dishes. It leverages machine-learning techniques to provide personalized dish recommendations and ingredient lists.
 
@@ -24,7 +22,7 @@ The Indian Cuisine Recommender is a Python-based web application that recommends
 4. Open the web application in your browser at `http://localhost:8000`
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [License](https://opensource.org/license/mit/) file for more details.
 
 ## Contributing
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request.
