@@ -1,6 +1,6 @@
 # Indian Cuisine Recommender
 
-[![License](https://opensource.org/license/mit/)
+[License](https://opensource.org/license/mit/)
 
 ## Overview
 The Indian Cuisine Recommender is a Python-based web application that recommends Indian dishes based on flavour profiles, cook time, and similarity to other dishes. It leverages machine-learning techniques to provide personalized dish recommendations and ingredient lists.
